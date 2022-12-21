@@ -5,5 +5,5 @@
 #    python "$py_file"
 #done
 
-
+env
 python ./py_folder/ICETTFGasFutures.py

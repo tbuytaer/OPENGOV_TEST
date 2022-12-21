@@ -3,6 +3,10 @@ import os
 import utils
 import json
 
+print(os.getenv('apiURLScript'))
+print(os.environ)
+
+
 # Metadata for this script
 scriptInfo = {
     'scriptID': os.path.splitext(str(os.path.basename(__file__)))[0],
